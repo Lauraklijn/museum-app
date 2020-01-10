@@ -14,6 +14,9 @@ function submitComment() {
   comment.classList.add('comment')
   comment.appendChild(h3)
   comment.appendChild(p)
+
+  const commentSection = document.getElementById("comments");
+  commentSection.appendChild(comment)
   
   // select container TAG / element
 
